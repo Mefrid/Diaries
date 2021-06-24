@@ -28,6 +28,8 @@ Backend technologies:
 
 - NestJS
 
+Interface is mobile-oriented.
+
 ## Quick start
 
 ### Frontend
@@ -50,4 +52,12 @@ npm run start:dev
 
 ```sh
 npm run build
+```
+
+## Run whole application
+
+Application starts at http://localhost:3000
+
+```sh
+npm run startProd
 ```
