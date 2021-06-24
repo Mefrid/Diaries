@@ -1,0 +1,17 @@
+{
+  "name": "diaries",
+  "version": "1.0.0",
+  "author": "Michael Bazhenov",
+  "license": "ISC",
+  "description": "Diaries demonstration application",
+  "scripts": {
+    "build": "npm run buildBackend && npm run buildFrontend && npm run startProd",
+    "buildFrontend": "cd frontend && yarn && yarn build",
+    "buildBackend": "cd backend && npm install && npm run build",
+    "startProd": "cd backend && npm run start:prod "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mefrid/Diaries.git"
+  }
+}
